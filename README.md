@@ -1,7 +1,3 @@
-BinDetective is a high-performance static decompiler engine designed for the agent era, featuring lightweight, high-concurrency, and multi-architecture binary decompilation and identification capabilities. Built with C++, it fully integrates with Ghidra Sleigh and covers all its processor architectures, with self-developed complete analysis pipeline capabilities, natively supporting three major formats: PE, ELF, and Mach-O.
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/786bde78-4120-4ba6-a2bd-4dae7ccf8e9f" />
 
-Copyright (c) 2009-2026 LyShark <me@lyshark.com>
-
-All rights reserved.
-
-For detailed copyright information see the file COPYING in the root of the distribution archive.
+BinDetective is a lightweight, high concurrency, multi architecture binary decompilation and recognition engine designed for the era of artificial intelligence. It natively supports multiple processor architectures and is compatible with the three mainstream executable file formats of PE, ELF, and Mach-O. It can complete automated decompilation and also supports fallback recognition of common non binary files, automatically identifying size and 32/64 bit positions. The architecture covers mainstream platforms such as x86, ARM, and AArch64, and can complete architecture name recognition for some niche architectures, improving the ability to quickly analyze and adapt binary samples. It is a decompilation engine designed for artificial intelligence analysis scenarios.
