@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+BinDetective/__init__.py
+BinDetective.egg-info/PKG-INFO
+BinDetective.egg-info/SOURCES.txt
+BinDetective.egg-info/dependency_links.txt
+BinDetective.egg-info/top_level.txt

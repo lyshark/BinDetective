@@ -1,0 +1,14 @@
+/< Apply default prototype model configuration
+  void decodeGlobal(Decoder &decoder,vector<RangeProperties> &rangeProps);	///< Parse information about global ranges
+  void addToGlobalScope(const RangeProperties &props);	///< Add a memory range to the set of addresses considered \e global
+  void addOtherSpace(void);                         	///< Add OTHER space and all of its overlays to the symboltab
+  void decodeReadOnly(Decoder &decoder);		///< Apply read-only region configuration
+  void decodeVolatile(Decoder &decoder);		///< Apply volatile region configuration
+  void decodeReturnAddress(Decoder &decoder);		///< Apply return address configuration
+  void decodeIncidentalCopy(Decoder &decoder);		///< Apply incidental copy configuration
+  void decodeRegisterData(Decoder &decoder);		///< Read specific register properties
+  void decodeStackPointer(Decoder &decoder);		///< Apply stack pointer configuration
+  void decodeDeadcodeDelay(Decoder &decoder);		///< Apply dead-code delay configuration
+  void decodeInferPtrBounds(Decoder &decoder);		///< Apply pointer inference bounds
+  void decodeFuncPtrAlign(Decoder &decoder);		///< Apply function pointer alignment configuration
+  void
